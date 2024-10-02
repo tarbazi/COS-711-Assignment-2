@@ -1,5 +1,3 @@
-import random
-random.seed(5)
-print(random.random())
-random.seed(5)
-print(random.random())
+a = [1,2,3,4,5]
+for i in a[::-1]:
+    print(i)
