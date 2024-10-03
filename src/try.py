@@ -1,7 +1,4 @@
-a = [1, 2, 3]
-print(a)
+a = [1, 2, 3].to_numpy()
+b = [3, 2, 1].to_numpy()
 
-b = a
-b[0] += 1
-
-print(a)
+print(a+b)
