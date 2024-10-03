@@ -1,3 +1,7 @@
-a = [1,2,3,4,5]
-for i in a[::-1]:
-    print(i)
+a = [1, 2, 3]
+print(a)
+
+b = a
+b[0] += 1
+
+print(a)
